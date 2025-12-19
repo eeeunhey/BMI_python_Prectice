@@ -1,5 +1,6 @@
 # 사전 설치 : pip install flask pymysql
 
+import os
 from flask import Flask, render_template, request, redirect, url_for
 from bmi import BMICalculator
 from db import Database
